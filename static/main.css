@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "custom1";
+    src: url(/fonts/MyriadPro-Regular.otf) format("truetype");
+}
+
+*{
+    font-family: custom1, Verdana, Tahoma; 
+}
