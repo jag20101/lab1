@@ -45,14 +45,15 @@ opacity:1;
 font-size: 18pt;
 }
 
-#bio{
+#bio_div{
 width:60%;
 margin-left: 20%;
 background-color: #3d513b;
 border-radius: 15px;
 }
 
-#bio p{
+
+#bio_body{
 width:90%;
 margin-left: 5%;
 padding-top: 10px;
