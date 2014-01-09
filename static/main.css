@@ -1,8 +1,74 @@
 @font-face {
     font-family: "custom1";
-    src: url(/fonts/MyriadPro-Regular.otf) format("truetype");
+    src: url(fonts/MyriadPro-Regular.otf) format("truetype");
 }
 
 *{
     font-family: custom1, Verdana, Tahoma; 
 }
+
+body
+{
+background-image:url('imgs/background.jpg');
+background-color: #cccccc;
+color: white;
+}
+
+#page_title{
+position: absolute;
+left:50%;
+top: 20%;
+}
+
+#profile_pic_div{
+width: 220px;
+margin-left: 20%;
+margin-top: 5%;
+background-color: #3d513b;
+border-radius: 15px;
+text-align:center;
+}
+
+#profile_pic{
+width:220px; 
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+opacity:0.9;
+}
+
+
+#profile_pic:hover{
+opacity:1;
+}
+
+#name{
+font-size: 18pt;
+}
+
+#bio{
+width:60%;
+margin-left: 20%;
+background-color: #3d513b;
+border-radius: 15px;
+}
+
+#bio p{
+width:90%;
+margin-left: 5%;
+padding-top: 10px;
+}
+
+#project_list{
+position:absolute;
+top: 0px;
+margin-left: 10px;
+padding-bottom: 10px;
+}
+
+ul.nice-menu li.green{
+  background: #2cae1e;
+} 
+
+ul.nice-menu li.darkgreen {
+  background: #0e5b06;
+} 
